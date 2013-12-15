@@ -1,0 +1,16 @@
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+$btnPrimaryBackground: teal;
+$baseFontFamily:Oswald;
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald:400,300,700);
+@import 'bootstrap';
+
+body{
+	padding-top:60px;
+	background-color:prateek;
+}
+.footer {
+	margin-top: 40px;
+}
+
+@import 'bootstrap-responsive';
