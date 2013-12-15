@@ -1,0 +1,2 @@
+class MwhomeController < ApplicationController
+end

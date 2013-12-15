@@ -1,16 +1,25 @@
-$navbarBackgroundHighlight: white;
-$navbarBackground: white;
+$navbarBackgroundHighlight:rgb(17, 17, 17);
+$navbarBackground:rgb(17, 17, 17);
 $btnPrimaryBackground: teal;
+$navbarHeight:60px;
 $baseFontFamily:Oswald;
+$navbarLinkColor:rgb(0, 136, 204);
+$navbarBrandColor:rgb(0, 136, 204);
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald:400,300,700);
 @import 'bootstrap';
 
 body{
-	padding-top:60px;
-	background-color:prateek;
+	padding-top:80px;
+	background-color:rgb(17, 17, 17);
 }
 .footer {
 	margin-top: 40px;
 }
-
+.navbar{
+	opacity:0.8;
+	
+}
+li {
+	color:white;
+}
 @import 'bootstrap-responsive';
