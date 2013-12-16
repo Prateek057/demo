@@ -1,8 +1,5 @@
-<% if user_signed_in? %>
-	<div class="hero-unit">
-	<h1>Your are Logged in!</h1>
-	</div>
-<% else %>
+<% unless user_signed_in? %>
+	
 	<div class="hero-unit">
 	<h1>Pages#mwhome</h1><br />
 	<p> <%= link_to "Sign up Now!", new_user_registration_path, class: "btn btn-large btn-primary" %></p>
