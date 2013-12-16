@@ -3,8 +3,11 @@ $navbarBackground:rgb(17, 17, 17);
 $btnPrimaryBackground: teal;
 $navbarHeight:60px;
 $baseFontFamily:Oswald;
+@textColor:white;
+@heroUnitBackground:rgb(67, 78, 86);
 $navbarLinkColor:rgb(0, 136, 204);
 $navbarBrandColor:rgb(0, 136, 204);
+@placeholderText:white;
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald:400,300,700);
 @import 'bootstrap';
 @import 'bootstrap-responsive';
@@ -23,8 +26,18 @@ body{
 li {
 	color:white;
 }
-
-
+.container h2, h3{
+    color:rgb(0, 136, 204);
+}
+.container p.help-block{
+    color:yellow;
+}
+.container label{
+    color:white;
+}
+.container label abbr {
+    color:red;
+}
 .box {
     margin: 5px;
     padding: 5px;

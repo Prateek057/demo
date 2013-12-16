@@ -24,6 +24,9 @@ end
 
 gem 'jquery-rails'
 
+#Gem for Amazon-s3 SDK
+gem 'aws-sdk'
+
 gem "paperclip", "~> 3.0"
 
 gem 'faker'
