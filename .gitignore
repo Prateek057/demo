@@ -16,3 +16,5 @@
 doc/
 *.swp
 *~
+#ignore paperclip files
+/public/system 

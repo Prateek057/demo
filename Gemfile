@@ -24,6 +24,8 @@ end
 
 gem 'jquery-rails'
 
+gem "paperclip", "~> 3.0"
+
 group :development do
  gem 'sqlite3'
 end
