@@ -16,5 +16,5 @@
 doc/
 *.swp
 *~
-#ignore paperclip files
-/public/system 
+# Ignore Paperclip uploaded files
+/public/system
