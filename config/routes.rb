@@ -1,5 +1,7 @@
 Demo::Application.routes.draw do
 
+  get "allusers/show"
+
   get "users/show"
 
   resources :pins
@@ -7,8 +9,9 @@ Demo::Application.routes.draw do
 
   devise_for :users
 
-   match 'users/:id' => 'users#show', as: :user
+  match 'users/:id' => 'users#show', as: :user
 
+  get 'allusers' => "allusers#show"
   get 'about' => 'pages#about'
   root :to => 'pins#index'
 

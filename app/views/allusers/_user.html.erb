@@ -1,0 +1,6 @@
+<% for @user in User.all %>
+<p>
+	<%= @user.name	%>	
+	<%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %>
+</p>
+<% end %>

@@ -12,6 +12,52 @@ $navbarBrandColor:rgb(0, 136, 204);
 @import 'bootstrap';
 @import 'bootstrap-responsive';
 
+#homepage{
+    position:relative;
+    overflow:hidden;
+    z-index:1;
+    height:100%;
+    margin-bottom:-70px;
+    height:675px;
+    background-image: url('C:\\Users\\bagrecha\\appengine\\MyProjects1\\RailsProject\\demo\\public\\images\\Naruto-full.jpg');
+}
+#homepage .container{
+    height:100%;
+}
+.container{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.column,.columns{
+  float:left;
+  display:inline;
+  margin-left:10px;
+  margin-right:10px
+  }
+.container .sixteen.columns{
+  width:1180px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+h1,h2,h3,h4{font-weight:300;font-family:'Oswald',sans-serif;color:#fff;margin:0 0 6px}
+h3.sectionTitle{border-bottom:1px solid #333;font-size:28px;line-height:30px;margin-bottom:10px;padding:26px 0 6px}
+.small{font-size:36px;font-weight:300;text-transform:uppercase}
+.smallBold{font-size:36px;font-weight:700;text-transform:uppercase}
+.medium{font-size:44px;text-transform:uppercase}
+.mediumBold{font-size:44px;font-weight:700;text-transform:uppercase}
+.large{font-size:56px;text-transform:uppercase}
+.largeBold{font-size:56px;font-weight:700;text-transform:uppercase}
+.author{font-size:18px;font-weight:300}
+
+
+.h1 span{color:#006f8e;font-size:120px}
+h2{font-size:44px;text-transform:uppercase;position:relative;color:white;}
+h2.white{color:#fff}.siteColor{color:#d2b55b}
+h3{font-size:22px;line-height:1}
+
 body{
 	padding-top:80px;
 	background-color:rgb(17, 17, 17);
@@ -48,7 +94,8 @@ li {
     -moz-border-radius: 5px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px #444;
-    width: 214px;
+    width: 300px;
+    height: 300px;
 }
 
 .box img {
@@ -58,6 +105,10 @@ li {
     border-radius: 5px;
 }
 
-.description {
+/*.description {
     margin: 10px 0 5px;
+}*/
+
+.navgation {
+    top: 700px;
 }

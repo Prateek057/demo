@@ -1,15 +1,34 @@
-<% unless user_signed_in? %>	
-	<div class="hero-unit">
-	<h1>Pages#mwhome</h1><br />
-	<p> <%= link_to "Sign up Now!", new_user_registration_path, class: "btn btn-large btn-primary" %></p>
+<div class="container">
+	<% if user_signed_in? %>	
+	<!-- Start Homepage -->
+
+	<div id="homepage">
+		
+		<div class="sixteen columns">
+			<h1><span>Manga<br /></span>Works</h1>
+			<h3><span class="small">YOUR</span> <span class="smallBold">Online</span>
+
+				<br><span class="medium">DATABASE</span> <span class="mediumBold">FOR</span>
+				<br><span class="large">ONLINE</span> <span class="largeBold">Reading</span>
+			</h3>
+		</div>
+		
 	</div>
-<% end %>
-<!-- <div class="row">
-	<div class="span4">
-		<h1>Navigation Bar</h1>
+	<!--End homepage -->
+	<% else %>
+	<!-- Start Homepage -->
+	<div id="homepage">
+		
+		<div class="sixteen columns">
+			<h1><span>Manga<br /></span>Works</h1>
+			<h3><span class="small">YOUR</span> <span class="smallBold">Online</span>
+
+				<br><span class="medium">DATABASE</span> <span class="mediumBold">FOR</span>
+				<br><span class="large">ONLINE</span> <span class="largeBold">Reading</span>
+			</h3>
+		</div>
+		
 	</div>
-	<div class="span8">
-		<h1>Pages#mwhome</h1>
-		<p>Find me in app/views/pages/mwhome.html.erb</p>
-	</div>
-</div> -->
+	<!--End homepage -->
+	<% end %>
+</div>
